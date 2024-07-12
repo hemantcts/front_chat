@@ -4,7 +4,7 @@ import './App.css';
 
 
 function App() {
-  const socket = useMemo(() => io('https://chat-s7h5.onrender.com/'), []);
+  const socket = useMemo(() => io('https://alerts.socceryou.ch/'), []);
 
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
