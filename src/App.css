@@ -114,3 +114,105 @@ button {
 button:hover {
   background-color: #e0e0e0;
 }
+
+
+
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 50%; /* Default width for larger screens */
+  max-width: 400px; /* Set max-width for responsiveness */
+
+  /* Media query for smaller screens (e.g., mobile devices) */
+  @media (max-width: 450px) {
+    width: 100%; /* Full width on smaller screens */
+    max-width: none; /* Remove max-width on smaller screens */
+  }
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.message {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.message2 {
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 10px;
+  display: flex;
+}
+
+.modal-content input{
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px 0 0 3px;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  padding: 8px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.notifications {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  max-width: 300px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.notification {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
