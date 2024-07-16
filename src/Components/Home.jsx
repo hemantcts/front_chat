@@ -129,10 +129,10 @@ const Home = () => {
 
                                                                     <div className="chat-list">
                                                                         <Link to='/' className="d-flex align-items-center">
-                                                                            <div className="flex-shrink-0">
+                                                                            {/* <div className="flex-shrink-0">
                                                                                 <img className="img-fluid" src="https://mehedihtml.com/chatbox/assets/img/user.png" alt="user img" />
                                                                                 <span className="active"></span>
-                                                                            </div>
+                                                                            </div> */}
                                                                             <div className="flex-grow-1 ms-3">
                                                                                 <h3>Mehedi Hasan</h3>
                                                                                 <p>front end developer</p>
