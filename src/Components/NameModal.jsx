@@ -11,8 +11,8 @@ const NameModal = ({ onSubmit }) => {
   };
 
   return (
-    <div className="modal">
-      <form onSubmit={handleSubmit} className="modal-content">
+    <div className="modal1">
+      <form onSubmit={handleSubmit} className="modal-content1">
         <input
           type="text" id="name" placeholder='Enter your name' value={name} onChange={(e) => setName(e.target.value)} required />
         <button type="submit">Submit</button>
