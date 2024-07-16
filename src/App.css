@@ -159,5 +159,20 @@ button[type="submit"] {
   padding: 6px;
   margin-bottom: 12px;
   text-align: center;
+  position: relative;
+  opacity: 0;
+  bottom: 50px;
+  animation: scroller .5s ease forwards;
 }
 
+@keyframes scroller {
+  from {
+    opacity: 0;
+    bottom: 50px;
+  }
+
+  to {
+    opacity: 1;
+    bottom: 0;
+  }
+}
