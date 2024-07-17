@@ -92,7 +92,7 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="chat-area">
-                                        <div className="chatlist">
+                                        <div className="chatlist d-none d-md-block">
                                             <div className="modal-dialog-scrollable">
                                                 <div className="modal-content">
                                                     <div className="chat-header">
